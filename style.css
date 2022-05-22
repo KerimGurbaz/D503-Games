@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Open+Sans:wght@300&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #9f9f9f;
+  background-color: #FEFEFE;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.top-header {
+  border-bottom: 1px solid #E51515;
+}
+.top-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-header .container .logo h1 {
+  font-size: 5rem;
+  font-family: "Changa", sans-serif;
+  color: #E51515;
+}
+.top-header .container .top-social-menu {
+  display: flex;
+}
+.top-header .container .top-social-menu li {
+  margin: 0 1rem;
+  padding: 1rem;
+  transition: all 0.5s;
+}
+.top-header .container .top-social-menu li a {
+  font-size: 2rem;
+}
+.top-header .container .top-social-menu li:hover a {
+  color: #E51515;
+}
+.top-header .container .login-area span {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
