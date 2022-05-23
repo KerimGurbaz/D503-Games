@@ -1,15 +1,6 @@
-// font-family: 'Changa', sans-serif;
-// font-family: 'Open Sans', sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Open+Sans:wght@300&display=swap');
 
-$primary-font:'Changa', sans-serif;
-$secondary-font:'Open Sans', sans-serif;
-$primary-color:#E51515;
-$secondary-color:#14151A;
-$date-color:#FFB320;
-$comment-color:#08ABBD;
-$gray-color:#9f9f9f;
-$light-color:#FEFEFE;
+@import "./abstracts";
+@import "./components";
 
 *,
 *::after,
@@ -38,7 +29,8 @@ body{
 a{
     text-decoration: none;
     text-transform: uppercase;
-    // color: $light-color;
+    font-family: $primary-font;
+    color: $light-color;
     
 }
 
@@ -48,6 +40,8 @@ ul{
 img{
     width: 100%;
 }
+
+/** TOP HEADER **/
 
 .top-header{
     border-bottom: 1px solid $primary-color;
